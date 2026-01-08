@@ -1,9 +1,22 @@
-export default function Home() {
+import HeroSection from "@/components/home/HeroSection";
+import OffersSection from "@/components/home/OffersSection";
+import LoanCalculator from "@/components/home/LoanCalculator";
+import TrustBar from "@/components/home/TrustBar";
+import FeaturesSection from "@/components/home/FeaturesSection";
+import CTASection from "@/components/home/CTASection";
+import CardsSection from "@/components/home/CardsSection";
+
+
+export default function HomePage() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Tailwind v4 Working ✅
-      </h1>
+    <main>
+      <HeroSection />
+      <OffersSection />
+      <LoanCalculator />
+      <CardsSection /> 
+      <TrustBar />
+      <FeaturesSection />
+      <CTASection />
     </main>
   );
 }
