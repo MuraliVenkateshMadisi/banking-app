@@ -11,7 +11,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* LOGO */}
         <Link href="/" className="text-xl font-bold text-indigo-600">
-          Bank<span className="text-black">MADISI</span>
+          Nxt<span className="text-black">Bank</span>
         </Link>
 
         {/* DESKTOP NAV */}

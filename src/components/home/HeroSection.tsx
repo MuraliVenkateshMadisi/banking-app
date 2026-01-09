@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="bg-gradient-to-br from-indigo-600 to-indigo-800 text-white">
+    <section className="bg-linear-to-br from-indigo-600 to-indigo-800 text-white">
       <div className="max-w-7xl mx-auto px-6 py-24 text-center">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Smarter Banking <br className="hidden md:block" />
