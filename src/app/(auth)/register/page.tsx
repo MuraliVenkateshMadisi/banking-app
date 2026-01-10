@@ -61,11 +61,16 @@ export default function RegisterPage() {
           </div>
 
           <button
-            type="submit"
+            type="button"
+            onClick={() => {
+              document.cookie = "isLoggedIn=true; path=/";
+              window.location.href = "/dashboard";
+            }}
             className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition"
           >
             Create Account
           </button>
+
         </form>
 
         {/* FOOTER */}

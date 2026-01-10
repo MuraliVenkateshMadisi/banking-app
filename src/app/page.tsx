@@ -6,14 +6,13 @@ import FeaturesSection from "@/components/home/FeaturesSection";
 import CTASection from "@/components/home/CTASection";
 import CardsSection from "@/components/home/CardsSection";
 
-
 export default function HomePage() {
   return (
     <main>
       <HeroSection />
       <OffersSection />
       <LoanCalculator />
-      <CardsSection /> 
+      <CardsSection />
       <TrustBar />
       <FeaturesSection />
       <CTASection />
